@@ -29,10 +29,10 @@ Log into the Towerr UI, go to `Inventories`, `Ansible Workshop Inventory` and th
 
 We need to add a couple of additional playbooks. These are in a different git repository so we need to add a new project. In the Ansible Tower UI, go to `Projects` and then click the `+` button to add a new project. Complete the form using the following entries.
 
-NAME |Additional Exercises Project
-DESCRIPTION|Additional Exercises playbooks
-ORGANIZATION|Default
-SCM TYPE|Git
+NAME | Additional Exercises Project
+DESCRIPTION| Additional Exercises playbooks
+ORGANIZATION| Default
+SCM TYPE| Git
 SCM URL| https://github.com/pharriso/ansible_workshop.git
 SCM BRANCH|
 SCM UPDATE OPTIONS| [x] Clean <br />  [x] Delete on Update<br />  [x] Update on Launch
