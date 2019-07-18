@@ -1,4 +1,4 @@
-# Exercise 4-2: Creating a Tower Job Template - User Template
+# Exercise 4-3: Creating a Tower Job Template - User Template
 
 ## Table of Contents
 
