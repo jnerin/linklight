@@ -50,15 +50,15 @@ Now that we've defined your play, let's add some tasks to get some things done. 
 
 ```yml
 tasks:
- - name: install apache
-   yum:
-     name: httpd
-     state: present
+  - name: install apache
+    yum:
+      name: httpd
+      state: present
 
- - name: start httpd
-   service:
-     name: httpd
-     state: started
+  - name: start httpd
+    service:
+      name: httpd
+      state: started
 ```
 
 - `tasks:` This denotes that one or more tasks are about to be defined
