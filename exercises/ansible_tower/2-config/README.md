@@ -154,6 +154,16 @@ Feel free to browse your inventory in Tower.  You should now notice that the inv
 
 At this point, we are doing with our basic configuration of Ansible Tower.  In exercise 2.2, we will be soley focused on creating and running a job template so you can see Tower in action.
 
+
+## Mark Exercise As Completed
+
+Please now run this command:
+
+```bash
+cd ~/linklight/exercises/ansible_tower/2-config/ && ./completed.sh
+```
+
+
 ---
 
 [Click Here to return to the Ansible Lightbulb - Ansible Tower Workshop](../README.md)
