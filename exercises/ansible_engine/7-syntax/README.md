@@ -73,6 +73,15 @@ You will see a number of issues highlighted with our playbook. Feel free to try 
 
 This exercise gives you some examples of the tools available to check the YAML syntax and best practices used within your playbooks prior to execution.
 
+
+## Mark Exercise As Completed
+
+Please now run this command:
+
+```bash
+cd ~/linklight/exercises/ansible_engine/7-syntax/ && ./completed.sh
+```
+
 ---
 
 [Click Here to return to the Ansible Linklight - Ansible Engine Workshop](../README.md)
