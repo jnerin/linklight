@@ -255,6 +255,14 @@ ansible-lint site.yml
 If the output is silent then you're good to go!
 
 
+## Mark Exercise As Completed
+
+Please now run this command:
+
+```bash
+cd ~/linklight/exercises/ansible_engine/3-variables/ && ./completed.sh
+```
+
 ---
 
 [Click Here to return to the Ansible Linklight - Ansible Engine Workshop](../README.md)
