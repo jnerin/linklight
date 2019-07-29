@@ -173,6 +173,14 @@ ansible -i /home/student1/lightbulb/lessons/lab_inventory/student1-instances.txt
 You should now have a completed playbook, `site.yml` with a couple of roles.
 
 
+## Mark Exercise As Completed
+
+Please now run this command:
+
+```bash
+cd ~/linklight/exercises/ansible_engine/6-more-roles/ && ./completed.sh
+```
+
 ---
 
 [Click Here to return to the Ansible Linklight - Ansible Engine Workshop](../README.md)
