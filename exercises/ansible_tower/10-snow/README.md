@@ -270,6 +270,17 @@ Click the SAVE button
 
 Add the SNOW Credential to the Job Templates and remove the EXTRA VARS information and re-run to test.
 
+
+
+## Mark Exercise As Completed
+
+Please now run this command:
+
+```bash
+cd ~/linklight/exercises/ansible_tower/10-snow/ && ./completed.sh
+```
+
+
 ---
 
 [Click Here to return to the Ansible Lightbulb - Ansible Tower Workshop](../README.md)
