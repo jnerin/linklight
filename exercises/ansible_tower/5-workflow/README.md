@@ -88,6 +88,16 @@ Now let's try launching our workflow. Press the rocketship `launch` icon to run 
 
 The last job in the workflow checks our loadbalancer is working as expected. It also prints the public IP address for the loadbalancer. Click on the job details to get your loadbalancer address and then use your web browser to view the url. Refresh your browser to confirm that you are loadbalancing between node2 and node3.
 
+
+## Mark Exercise As Completed
+
+Please now run this command:
+
+```bash
+cd ~/linklight/exercises/ansible_tower/5-workflow/ && ./completed.sh
+```
+
+
 ---
 
 [Click Here to return to the Ansible Lightbulb - Ansible Tower Workshop](../README.md)
