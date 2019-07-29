@@ -68,6 +68,17 @@ Also note how we use `delegate_to` in this playbook. This allows us to delagate 
 {% endraw %}
 ```
 
+
+## Mark Exercise As Completed
+
+Please now run this command:
+
+```bash
+cd ~/linklight/exercises/ansible_tower/6-rolling-update/ && ./completed.sh
+```
+
+
+
 ---
 
 [Click Here to return to the Ansible Lightbulb - Ansible Tower Workshop](../README.md)
