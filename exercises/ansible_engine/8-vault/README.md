@@ -101,6 +101,16 @@ Let's see if we managed to create our file.
 ansible web -a "cat /root/super_secret.txt" -o -b
 ```
 
+
+## Mark Exercise As Completed
+
+Please now run this command:
+
+```bash
+cd ~/linklight/exercises/ansible_engine/8-vault/ && ./completed.sh
+```
+
+
 ---
 
 [Click Here to return to the Ansible Linklight - Ansible Engine Workshop](../README.md)
