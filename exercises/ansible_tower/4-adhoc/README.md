@@ -34,6 +34,17 @@ ENABLE PRIVILEGE ESCALATION| [x]
 
 We can run Ad-hoc jobs from Ansible Tower while still maintaining all of the same controls and auditing that we have with playbook runs.
 
+
+
+## Mark Exercise As Completed
+
+Please now run this command:
+
+```bash
+cd ~/linklight/exercises/ansible_tower/4-adhoc/ && ./completed.sh
+```
+
+
 ---
 
 [Click Here to return to the Ansible Lightbulb - Ansible Tower Workshop](../README.md)
