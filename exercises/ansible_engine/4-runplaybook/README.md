@@ -32,6 +32,15 @@ If successful, you should see standard output that looks very similar to the fol
 ![Stdout](stdout_2.png)
 
 
+## Mark Exercise As Completed
+
+Please now run this command:
+
+```bash
+cd ~/linklight/exercises/ansible_engine/4-runplaybook/ && ./completed.sh
+```
+
+
 ---
 
 [Click Here to return to the Ansible Linklight - Ansible Engine Workshop](../README.md)
