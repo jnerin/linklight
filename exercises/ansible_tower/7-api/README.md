@@ -21,6 +21,14 @@ Calling the API ping can be a useful 'health' check. https://public_IP/api/v2/pi
 We've explored the Tower API briefly.
 
 
+## Mark Exercise As Completed
+
+Please now run this command:
+
+```bash
+cd ~/linklight/exercises/ansible_tower/7-api/ && ./completed.sh
+```
+
 ---
 
 [Click Here to return to the Ansible Lightbulb - Ansible Tower Workshop](../README.md)
