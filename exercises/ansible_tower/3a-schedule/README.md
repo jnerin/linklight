@@ -45,6 +45,15 @@ You can see the job schedule run output as per normal under Jobs
 ## End Result
 You've added a job to run on a schedule.
 
+
+## Mark Exercise As Completed
+
+Please now run this command:
+
+```bash
+cd ~/linklight/exercises/ansible_tower/3a-schedule/ && ./completed.sh
+```
+
 ---
 
 [Click Here to return to the Ansible Lightbulb - Ansible Tower Workshop](../README.md)
