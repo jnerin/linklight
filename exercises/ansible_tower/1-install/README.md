@@ -106,6 +106,15 @@ You know you were successful if you are able to browse to your Ansible Tower's u
 
 ![Ansible Tower Login Screen](ansible-lab-figure01-logon-screen.png)
 
+
+## Mark Exercise As Completed
+
+Please now run this command:
+
+```bash
+cd ~/linklight/exercises/ansible_tower/1-install/ && ./completed.sh
+```
+
 ---
 
 [Click Here to return to the Ansible Lightbulb - Ansible Tower Workshop](../README.md)
