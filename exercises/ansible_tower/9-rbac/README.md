@@ -50,6 +50,17 @@ Feel free to launch the rolling update job template as the student user. Ansible
 
 In this exercise we have reviewed the RBAC capabilities built into Ansible Tower. We created a basic user who we only allowed permissions to patch servers. This is a simple use case but shows how we can delegate tasks to certain teams without having to give them the keys to the kingdom.
 
+
+
+## Mark Exercise As Completed
+
+Please now run this command:
+
+```bash
+cd ~/linklight/exercises/ansible_tower/9-rbac/ && ./completed.sh
+```
+
+
 ---
 
 [Click Here to return to the Ansible Lightbulb - Ansible Tower Workshop](../README.md)
