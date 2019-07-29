@@ -670,6 +670,16 @@ Much of this content was based around Jeff Geerling's most excellent blog:
 https://www.jeffgeerling.com/blog/2018/testing-your-ansible-roles-molecule
 
 
+## Mark Exercise As Completed
+
+Please now run this command:
+
+```bash
+cd ~/linklight/exercises/ansible_engine/10-molecule/ && ./completed.sh
+```
+
+
+
 ---
 
 [Click Here to return to the Ansible Linklight - Ansible Engine Workshop](../README.md)
