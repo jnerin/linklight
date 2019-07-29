@@ -123,6 +123,14 @@ If all went well, you should see something like this, but with your own custom m
 At this point in the workshop, you've experienced the core functionality of Ansible Tower.  But wait... there's more! You've just begun to explore the possibilities of Ansible Core and Tower.  Take a look at the resources page in this guide to explore some more features.
 
 
+## Mark Exercise As Completed
+
+Please now run this command:
+
+```bash
+cd ~/linklight/exercises/ansible_tower/3-create/ && ./completed.sh
+```
+
 
 ---
 
