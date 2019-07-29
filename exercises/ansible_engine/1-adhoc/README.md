@@ -95,9 +95,9 @@ ansible web -m ping
 
 We are going to be using the short-form options throughout this workshop.
 
-# END OF EXERCISE
+## Mark Exercise As Completed
 
-Now please run this command:
+Please now run this command:
 
 ```bash
 cd ~/linklight/exercises/ansible_engine/1-adhoc/ && ./completed.sh
