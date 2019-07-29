@@ -162,4 +162,12 @@ node3                      : ok=3    changed=2    unreachable=0    failed=0
 
 Try running the playbook again. Notice anything different? (Ask the instructor about idempotency)
 
+## Mark Exercise As Completed
+
+Please now run this command:
+
+```bash
+cd ~/linklight/exercises/ansible_engine/2-playbook/ && ./completed.sh
+```
+
 [Click Here to return to the Ansible Linklight - Ansible Engine Workshop](../README.md)
