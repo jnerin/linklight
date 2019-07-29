@@ -184,6 +184,16 @@ ansible-playbook -i ~/lightbulb/lessons/lab_inventory/student##-instances.txt si
 
 Once a failure is detected with our website, we now run our rescue block which re-instates our known working apache configuration and our webservers are left in a working state.
 
+
+## Mark Exercise As Completed
+
+Please now run this command:
+
+```bash
+cd ~/linklight/exercises/ansible_engine/9-blocks-extra-vars/ && ./completed.sh
+```
+
+
 ---
 
 [Click Here to return to the Ansible Linklight - Ansible Engine Workshop](../README.md)
