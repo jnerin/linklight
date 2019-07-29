@@ -56,6 +56,16 @@ From the above output, I can see `job 58` so that's what we should look for in T
 We've explored the Tower API *Job Launch* facility in order to run a job template.
 
 
+
+## Mark Exercise As Completed
+
+Please now run this command:
+
+```bash
+cd ~/linklight/exercises/ansible_tower/8-launch/ && ./completed.sh
+```
+
+
 ---
 
 [Click Here to return to the Ansible Lightbulb - Ansible Tower Workshop](../README.md)
