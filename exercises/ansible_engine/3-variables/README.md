@@ -63,6 +63,7 @@ Add a play definition and some variables to your playbook.  These include addtio
 Add a new task called *install httpd packages*.
 
 ```yml
+{% raw %}
   tasks:
     - name: install httpd packages
       yum:
@@ -70,6 +71,7 @@ Add a new task called *install httpd packages*.
         state: present
       with_items: "{{ httpd_packages }}"
       notify: restart apache service
+{% endraw %}
 ```
 
 ---
