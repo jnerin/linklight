@@ -110,7 +110,10 @@ Add tasks to your role in `roles/common/rhel/tasks/main.yml`.
     name: "{{ inventory_hostname }}.{{ domainname }}"
 
 - name: add user accounts
-  user: name={{ item.name }} state=present groups={{ item.groups }}
+  user: 
+    name: "{{ item.name }}"
+    state: present 
+    groups: "{{ item.groups }}"
   with_items:
     - {name: 'fred', groups: 'users' }
     - {name: 'wilma', groups: 'wheel' }
