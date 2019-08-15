@@ -10,7 +10,7 @@ We need to amend our inventory so that node1 is part of a loadbalancer group.
 cd 
 git clone https://github.com/pharriso/ansible_workshop.git
 cd ~/ansible_workshop/build-new-inventory
-ansible-playbook -i ~/lightbulb/lessons/lab_inventory/student##-instances.txt generate_inventory.yml
+ansible-playbook generate_inventory.yml
 ```
 Take a look at our new inventory file. node1 should now be in the loadbalancer group.
 
