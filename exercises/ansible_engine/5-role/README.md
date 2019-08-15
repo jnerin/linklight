@@ -205,7 +205,7 @@ Run the playbook.
 
 ```bash
 cd ~/apache-basic-playbook
-ansible-playbook -i ~/lightbulb/lessons/lab_inventory/student##-instances.txt site.yml
+ansible-playbook site.yml
 ```
 
 If successful, your standard output should look similar to the figure below.
