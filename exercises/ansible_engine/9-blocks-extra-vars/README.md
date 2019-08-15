@@ -69,7 +69,7 @@ Firstly, note that we are forcing our handlers to run early. This is because we 
 Now re-run our playbook. 
 
 ```bash
-ansible-playbook -i ~/lightbulb/lessons/lab_inventory/student##-instances.txt site.yml
+ansible-playbook site.yml
 ```
 
 You shouldn't see any changes being made. Our smoke test should confirm that our webservers are returning a valid HTTP OK status code.
@@ -85,7 +85,7 @@ sed -i.bak 's/^Listen 80/Listen 81/' roles/apache-simple/templates/httpd.conf.j2
 Now let's re-run our playbook.
 
 ```bash
-ansible-playbook -i ~/lightbulb/lessons/lab_inventory/student##-instances.txt site.yml
+ansible-playbook site.yml
 ```
 
 Our playbook has failed now. We tried to smoke test our website on port 80 but our webserver is now mis-configured and is listening on port 81.
@@ -179,7 +179,7 @@ Your finished role should now look like this.
 Now let's run our playbook one more time. 
 
 ```bash
-ansible-playbook -i ~/lightbulb/lessons/lab_inventory/student##-instances.txt site.yml
+ansible-playbook site.yml
 ```
 
 Once a failure is detected with our website, we now run our rescue block which re-instates our known working apache configuration and our webservers are left in a working state.
