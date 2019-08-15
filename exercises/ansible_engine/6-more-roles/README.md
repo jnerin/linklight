@@ -136,7 +136,7 @@ let's run it and see how it works.
 Re-run the playbook.
 
 ```bash
-ansible-playbook -i ~/lightbulb/lessons/lab_inventory/student##-instances.txt site.yml
+ansible-playbook site.yml
 ```
 
 ## Section 4: Checking It Worked
@@ -146,7 +146,7 @@ ansible-playbook -i ~/lightbulb/lessons/lab_inventory/student##-instances.txt si
 Let's check it's all worked. We'll SSH into node1 and check the changes.
 
 ```bash
-grep node1 /home/student1/lightbulb/lessons/lab_inventory/student1-instances.txt
+grep node1 /home/student1/lab_inventory/hosts
 ssh 3.121.162.169 [use student password]
 note: MOTD will be displayed
 
@@ -168,7 +168,7 @@ Hint: Use ansible with the command module
 Perhaps something like:
 
 ```bash
-ansible -i /home/student1/lightbulb/lessons/lab_inventory/student1-instances.txt node3 -m command -a "cat /etc/motd"
+ansible node3 -m command -a "cat /etc/motd"
 ```
 
 ## Section 5: Review
