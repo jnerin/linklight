@@ -49,6 +49,10 @@ ansible web -m setup
 
 Now, let's install Apache using the `yum` module.
 
+**NOTE**
+We are using the -b option in the following command. This enables priviledge escalation (by default sudo). This is required because we are logging in as a non-priviledged user (studentX) and we need to become the root user to install packages.
+
+
 ```bash
 ansible web -m yum -a "name=httpd state=present" -b
 ```
