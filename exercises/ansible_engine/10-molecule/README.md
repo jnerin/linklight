@@ -92,7 +92,7 @@ Commands:
   verify       Run automated tests against instances.
   
 $ molecule --version
-molecule, version 2.20.1
+molecule, version 2.22
 ```
 
 ## Section 2: Creating a New Role Framework
@@ -170,7 +170,6 @@ Straight out the box, we should be able to do things:
 ```bash
 cd apache_install
 molecule create (check out 'docker images' and 'docker ps' output)
-molecule destroy
 ```
 
 If anything fails, then pinning molecule back a few versions along with any dependencies *might* work!
