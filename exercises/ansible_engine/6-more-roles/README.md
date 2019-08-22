@@ -146,8 +146,8 @@ ansible-playbook site.yml
 Let's check it's all worked. We'll SSH into node1 and check the changes.
 
 ```bash
-grep node1 /home/student1/lab_inventory/hosts
-ssh 3.121.162.169 [use student password]
+grep node1 ~/lab_inventory/hosts
+ssh $(grep node1 ~/lab_inventory/hosts | cut -d= -f2) # [use student password]
 note: MOTD will be displayed
 
 hostname
