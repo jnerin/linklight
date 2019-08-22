@@ -22,7 +22,7 @@ To run docker commands as a non-priviledged user we need to create a docker grou
 
 ```bash
 sudo groupadd docker
-sudo usermod -a -G docker studentx
+sudo usermod -a -G docker $USER
 logout
 ssh studentx@X.X.X.X
 ```
